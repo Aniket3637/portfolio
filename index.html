@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yH7eO/vqPfDk6xjcGpX5W2GgwXGHB4zvhfB/yB9KZ4WQolSYGM9b1t4e8cCax2D7w08zZQDNt6d7WlR93jzwHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ANIKET KUSHWAHA</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="toggle-btn" onclick="toggleMode()">Toggle Mode</button>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I'm Aniket Kushwaha</h1>
+    <p>I am a CSE third year student.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I aniket kushwaha from nepal.currently I am studing in india kiit university.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>.....</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>......</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>......</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: aniketkushawaha84@gmail.com</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <a href="#" class="resume-btn">Download Resume</a>
+  </section>
+
+  <footer>
+    © 2025 aniket kushwaha. All rights reserved
+  </footer>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
